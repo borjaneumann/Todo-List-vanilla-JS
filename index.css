@@ -1,0 +1,71 @@
+/* General css */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lobster", cursive;
+  color: rgb(241, 241, 241);
+  text-align: center;
+}
+body {
+  background: url(./jackson-hendry-eodA_8CTOFo-unsplash_medium.jpg) center no-repeat
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#task, #filter {
+  color: black;
+}
+.btn {
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(22, 17, 75);
+}
+.btn:hover {
+    transition: 1s color, 0.5s background;
+    color: black;
+    background: white;
+}
+li {
+    list-style-type: none;
+}
+
+/* positioning */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 45px auto;
+    max-width: 500px;
+    align-items: center;
+}
+#title {
+    padding: 1rem;
+}
+input,label {
+  display: block;
+}
+#add-task {
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.delete-item {
+  background: rgb(22, 17, 75);
+  height: 20px;
+  margin-left: 10px;
+}
+.task-container {
+  padding: 1.5rem;
+}
+
+#clearAll {
+  margin-top: 30px;
+}
+#author-pic {
+  position: absolute;
+  bottom: 5px;
+}
